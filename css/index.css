@@ -39,7 +39,6 @@ h4 {
 header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
   width: 100%;
   padding: 5vh 3%;
   position: relative;
@@ -77,11 +76,18 @@ button.get-started {
 }
 
 .intro {
-  height: 120vh;
+  height: 140vh;
   padding: 0 10vw 0 10vw;
 }
 .intro .section-content {
   flex-basis: 20%;
+  margin-bottom: 4em;
+}
+.intro .section-content p {
+  width: 100%;
+  max-width: 500px;
+  margin: 2em auto;
+  font-size: 1.2em;
 }
 .intro .section-image {
   background-image: url("../images/screen-mockups.svg");
@@ -221,7 +227,6 @@ footer p {
   margin-bottom: 20px;
 }
 footer .footer-contact {
-  height: inherit;
   padding-left: 7vw;
   flex-basis: 50%;
 }
@@ -316,6 +321,7 @@ footer .footer-newsletter button {
   }
   .intro .section-content {
     flex-basis: 30%;
+    margin-bottom: 0;
   }
   .intro .section-content button {
     margin-top: 3vh;
